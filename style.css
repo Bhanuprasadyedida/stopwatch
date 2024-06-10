@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(164, 176, 250);
+   
+}
+
+.container{
+   background-color: rgb(180, 212, 240);
+    width: 40px;
+    min-width: 500px;
+    position: absolute;
+    transform: translate( -50% , -50%);
+    top: 50%;
+    left:50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    border:none;
+} 
+
+.timer-display{
+    position:relative;
+    width:92%;
+    background-color: rgb(218, 241, 246);
+    color: rgb(6, 6, 6);
+    left:4%;
+    padding:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(104, 103, 103);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.buttons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+  
+}
+
+.buttons button{
+    width: 85px;
+    height: 45px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color:rgb(243, 113, 113) ;
+    cursor: pointer;
+    outline:none;
+    border-radius: 10px;
+}
+
+.buttons button:nth-child(2){
+    background-color: rgb(43, 226, 98);
+}
+.buttons button:nth-child(3){
+    background-color: rgb(43, 198, 226);
+}
+
+.buttons button:hover{
+     box-shadow: 0 0 20px rgb(58, 56, 56);
+}
